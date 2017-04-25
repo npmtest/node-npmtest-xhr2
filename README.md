@@ -1,6 +1,6 @@
 # npmtest-xhr2
 
-#### test coverage for  [xhr2 (v0.1.4)](https://github.com/pwnall/node-xhr2)  [![npm package](https://img.shields.io/npm/v/npmtest-xhr2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xhr2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xhr2.svg)](https://travis-ci.org/npmtest/node-npmtest-xhr2)
+#### basic test coverage for  [xhr2 (v0.1.4)](https://github.com/pwnall/node-xhr2)  [![npm package](https://img.shields.io/npm/v/npmtest-xhr2.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-xhr2) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-xhr2.svg)](https://travis-ci.org/npmtest/node-npmtest-xhr2)
 
 #### XMLHttpRequest emulation for node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-xhr2/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-xhr2/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-xhr2/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-xhr2/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xhr2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xhr2/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-xhr2/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-xhr2/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-xhr2/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-xhr2/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-xhr2/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-xhr2/build/coverage.html/index.html)
 
@@ -104,7 +104,8 @@
         "prepublish": "node_modules/coffee-script/bin/cake build",
         "test": "node_modules/coffee-script/bin/cake test"
     },
-    "version": "0.1.4"
+    "version": "0.1.4",
+    "bin": {}
 }
 ```
 
